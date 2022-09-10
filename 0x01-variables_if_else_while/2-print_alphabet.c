@@ -1,7 +1,7 @@
 /*
  * File: 2-print_alphabet.c
  * Auth: Brennan D Baraban
- * 
+  
  */
 
 #include <stdio.h>
@@ -20,4 +20,4 @@ int main(void)
 	putchar('\n');
 
 	return (0);
-}	
+}
