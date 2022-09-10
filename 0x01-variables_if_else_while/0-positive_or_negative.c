@@ -4,7 +4,13 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-int main(int n)
+
+/**
+ * main - Prints a random number and states whether
+ *
+ * return 0
+ */
+int main(void)
 {
 	int n;
 
