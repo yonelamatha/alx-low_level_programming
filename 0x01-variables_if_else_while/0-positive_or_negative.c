@@ -1,15 +1,15 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
-
-/**
- * main - Prints a random number and states whether
- *
-* return 0
+/** main - Entry point
+ * 
+ * Description: 'print whether the number stored in the variable n is positive or negative.'
+ * 
+ * Return: Always 0 (Success)
  */
+
+
 int main(void)
 {
 	int n;
