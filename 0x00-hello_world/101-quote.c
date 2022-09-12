@@ -2,12 +2,14 @@
 #include <unistd.h>
 
 /**
+ * main - Entry point
+ * 
+ * Description: 'the program's description'
  *
- * main - Prints out the last part of a quote in the standard error.
- *
- * Return: 1 if success.
- *
+ * Return: Always 0 (Success)
  */
+
+
 int main(void)
 
 {
