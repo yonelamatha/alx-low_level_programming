@@ -3,9 +3,7 @@
 /**
  * main- print main function
  *
- * Description: 'the program's description'
- *
- * C program that prints the size of various types\
+ * Description: C program that prints the size of various types\
  * on the computer it is compiled and run on
  *
  * return 0
