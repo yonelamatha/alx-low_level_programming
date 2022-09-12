@@ -1,12 +1,14 @@
 #include<stdio.h>
 
 /**
- * main- print main function
- *
- * Description: 'C program that prints the size of various types on the computer it is compiled and run on'
- *
- * return 0
+ * main - Entry point
+ * 
+ * Description: 'the program's description'
+ * 
+ * Return: Always 0 (Success)
  */
+
+
 int main(void)
 {
 	int a;
