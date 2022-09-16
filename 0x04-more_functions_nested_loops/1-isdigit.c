@@ -8,8 +8,10 @@
  *
  * Return: product of a and b
  */
-
-int mul(int a, int b)
+int _isdigit(int c)
 {
-	return (a * b);
+	if (c >= '0' && c <= '9')
+		return (1);
+	else
+		return (0);
 }
