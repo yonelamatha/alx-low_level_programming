@@ -2,11 +2,10 @@
 #include <stdio.h>
 
 /**
- * mul - multiplies two integers.
- * @a: first integer to multiply
- * @b: second integer to multiply
+ *  _isdigit - checks for digits 1-9
+ * @c: character to check.
  *
- * Return: product of a and b
+ * Return: 1 if c is a digit, otherwise return 0.
  */
 int _isdigit(int c)
 {
