@@ -5,7 +5,7 @@
 
 void reset_to_98(int *n);
 
-char *_strcat(char *dest, char *src);
+void swap_int(int *a, int *b);
 
 char *_strncat(char *dest, char *src, int n);
 
