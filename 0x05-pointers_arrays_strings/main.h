@@ -11,7 +11,7 @@ int _strlen(char *s);
 
 void _puts(char *str);
 
-int _strcmp(char *s1, char *s2);
+void print_rev(char *s);
 
 void reverse_array(int *a, int n);
 
