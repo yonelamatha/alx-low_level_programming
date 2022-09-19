@@ -13,13 +13,13 @@ void _puts(char *str);
 
 void print_rev(char *s);
 
-void reverse_array(int *a, int n);
+void rev_string(char *s);
 
 char *string_toupper(char *n);
 
 char *cap_string(char *n);
 
-char *leet(char *n);
+int _atoi(char *s);
 
 char *rot13(char *n);
 
