@@ -15,7 +15,7 @@ void print_rev(char *s);
 
 void rev_string(char *s);
 
-char *string_toupper(char *n);
+void puts2(char *str);
 
 char *cap_string(char *n);
 
