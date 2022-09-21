@@ -9,7 +9,7 @@
  * Return: A pointer to the resulting string dest
  */
 
-har *_strncat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int dlen = 0, j = 0;
 
