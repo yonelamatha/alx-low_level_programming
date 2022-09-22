@@ -39,7 +39,7 @@ int _strcmp(char *s1, char *s2)
 			k++;
 			continue;
 		}
-		
+
 		else
 		{
 			r = s1[k] - s2[k];
@@ -50,4 +50,3 @@ int _strcmp(char *s1, char *s2)
 	}
 	return (r);
 }
-
