@@ -4,7 +4,7 @@
 /**
  * _strchr - locates a character in a string
  * @s: string to check
- * @c: character to found
+ * @c: character check for
  *
  * Return: pointer to s or null
  */
@@ -15,10 +15,10 @@ char *_strchr(char *s, char c)
 
 	for (i = 0; *(s + i); i++)
 	{
-		if (*(s + 1) == c)
+		if (*(s + i) == c)
 			return (s + i);
 	}
-	if (*(s + 1) == c)
+	if (*(s + i) == c)
 		return (s + i);
 	return (0);
 }
