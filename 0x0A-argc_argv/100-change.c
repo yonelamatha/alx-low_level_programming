@@ -5,7 +5,6 @@
 /**
  * _isnumber - checks if string is a number
  * @s: string
- *
  * Return: On success 1.
  * If not a number, 0 is returned.
  */
@@ -35,7 +34,6 @@ int _isnumber(char *s)
  * @argv: Pointer of array of pointers containing strings entering main
  *
  * Return: Always 0 (Success)
- *
  */
 
 int main(int argc, char **argv)
@@ -55,12 +53,14 @@ int main(int argc, char **argv)
 				{
 					d = cents / c[j];
 					if (d == 0)
+					{
 						j++;
-				}
-				else
-				{
-					coins += d;
-					cents -= (d * c[j]);
+					}
+					else
+					{
+						coins += d;
+						cents -= (d * c[j]);
+					}
 				}
 			}
 		}
