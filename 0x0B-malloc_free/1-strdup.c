@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * _strdup -  duplicate to new space location
+ * _strdup -  duplicate to new memory` space location
  * @str: char
  *
  * return: 0
