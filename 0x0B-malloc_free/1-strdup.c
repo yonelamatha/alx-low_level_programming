@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 /**
- * _strdup -  contains a copy of the string given as a parameter.
- * @str: char 
+ * _strdup -  duplicate to new space location
+ * @str: char
  *
  * return: 0
  */
@@ -16,10 +16,10 @@ char *_strdup(char *str)
 	if (str == NULL)
 		return (NULL);
 	j = 0;
-	while(str[j] != '\0')
+	while (str[j] != '\0')
 		j++;
 
-	array = malloc(sizeof(char) *(j + 1));
+	array = malloc(sizeof(char) * (j + 1));
 
 	if (array == NULL)
 		return (NULL);
