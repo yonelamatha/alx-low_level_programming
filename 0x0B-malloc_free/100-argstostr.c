@@ -15,7 +15,7 @@ char *argstostr(int ac, char **av)
 {
 	char *str;
 	int arg, byte, index, size = ac;
-	
+
 	if (ac == 0 || av == NULL)
 		return (NULL);
 
@@ -38,7 +38,7 @@ char *argstostr(int ac, char **av)
 
 		str[index++] = '\n';
 	}
-	
+
 	str[size] = '\0';
 
 	return (str);
