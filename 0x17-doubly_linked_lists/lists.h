@@ -1,8 +1,8 @@
-#ifndef LISTS_H
-#define LISTS_H
+#ifndef _LISTS_
+#define _LISTS_
 
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * struct dlistint_s - doubly linked list
@@ -11,7 +11,7 @@
  * @next: points to the next node
  *
  * Description: doubly linked list node structure
- * for Holberton project
+ * for ALX project
  */
 typedef struct dlistint_s
 {
@@ -29,5 +29,6 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);
 int sum_dlistint(dlistint_t *head);
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);
+
 
 #endif
